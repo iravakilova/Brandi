@@ -1,0 +1,76 @@
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: green;
+}
+.header {
+    width: 100%;
+    max-height: 800px;
+}
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 394px;
+}
+.header__logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+}
+.logo {
+    color: #fff;
+    font-family: "Pacifico-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 28px;
+    margin-right: 27px;
+}
+.logo-text{
+    font-family: "Pacifico-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 16pt;
+    color: rgba(50, 176, 238, 255);
+}
+.nav {
+    font-family: "Pacifico-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 13px;
+    padding: 35px 0 25px;
+
+}
+.nav__link {
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.intro{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.intro__title{
+    font-family: "Pacifico-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 62px;
+    color: #fff;
+    padding-bottom: 22px;
+}
+.intro__suptitle{
+    font-family: "Pacifico-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 48px;
+    color: #fff;
+    padding-bottom: 22px;
+}
+.intro__descr{
+    font-family: "Pacifico-Regular", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 109px;
+}
+.social-link__link img{
+    opacity: 0.25;
+    margin-right: 16px;
+}
+.social-link img:hover{
+    opacity: 1;
+}
