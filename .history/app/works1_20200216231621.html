@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>works_grid</title>
+    <style>
+        .gallery{
+            width: 100%;
+            margin: 0 auto;
+            max-width: 1600px;
+        }
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+        .grid-container img{
+        max-width: 100%;
+        width: 400px;
+        height: 300px;
+        display: block;
+        position: relative;
+    }
+        .ladore{
+        opacity: 1;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 400px;
+        height: 300px;
+        background-image: url(./img/labore.png);
+        color: #fff;
+        text-align: center;
+        transition: all .5s;    
+    }
+    .ladore__img img{
+        padding-top: 94px;
+        width: 20px;
+        height: 12px;
+        padding: 14px 10px;
+        border: 1px solid #fff;
+        border-radius: 50%;
+        margin: 94px auto 0;
+    }
+    .ladore__title{
+        padding-top: 29px;
+        padding-bottom: 10px;
+        font-family: "OpenSans", "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
+        font-size: 18px;
+        font-weight: bold;
+        margin: 0;
+    }
+    .ladore__descr{
+        margin: 0;
+    }
+    .grid-container img:hover .ladore{
+        opacity: 1;
+    }
+    </style>
+</head>
+<body>
+    <div class="gallery">
+        <div class="grid-container">
+                <div class="ladore">
+                    <div class="ladore__img">
+                        <img src="./img/eye.png" alt="">
+                    </div>
+                    <h4 class="ladore__title">Labore et dolore magnam</h4>
+                    <p class="ladore__descr">Photography</p>
+                </div>
+                <img src="./img/works-1.png" alt="">
+            <img src="./img/works-2.png" alt="">
+            <img src="./img/works-4.png" alt="">
+            <img src="./img/works-4.png" alt="">
+            <img src="./img/works-5.png" alt="">
+            <img src="./img/works-6.png" alt="">
+            <img src="./img/works-7.png" alt="">
+            <img src="./img/works-8.png" alt="">
+        </div>
+        <div class="ladore">
+            <div class="ladore__img">
+                <img src="./img/eye.png" alt="">
+            </div>
+            <h4 class="ladore__title">Labore et dolore magnam</h4>
+            <p class="ladore__descr">Photography</p>
+        </div>
+    </div>
+</body>
+</html>
