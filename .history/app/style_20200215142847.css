@@ -137,43 +137,16 @@
 
 /* works */
 
-.works{
-    width: 100%;
-    text-align: center;
-}
-.wrap{
-    width: 100%;
-    max-width: 1600px;
-    margin: 0 auto;
-}
 .works-menu {
-    padding: 58px 0 46px;
     font-family: "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 14px;
     font-weight: bold;
 }
 .works-menu__link {
     display: inline-block;
-    margin-left: 50px;
+    vertical-align: top;
+    margin-left: 20px;
     color: rgba(6, 32, 51, 255);
     text-decoration: none;
-    background-color: transparent;
-    padding: 10px 20px;
-    border-radius: 5px;
-}
-.works-menu__link:hover {
-    color: #fff;
-    background-color:  #0eb493;
-}
-.gallery{ 
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-}
-
-.gallery img {
-    width: 400px;
-    height: 300px;
-    object-fit: cover;
 }
 
