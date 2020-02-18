@@ -184,6 +184,7 @@
     width: 400px;
     height: 300px;
     display: block;
+    object-fit: cover;
 }
 .gallery__box{
     position: relative; 
@@ -228,7 +229,6 @@
 
 .team{
     width: 100%;
-    background: green;
 }
 .crew__container{
     padding: 108px 0 87px;
@@ -236,15 +236,17 @@
     align-items: center;
     justify-content: space-between;
 }
+.crew__box__inner{
+    position: relative;
+}
 .crew__img{
+    display: block;
     width: 100%;
     max-width: 270px;
-    height: 300px;
-    display: block;
+    height: 300px; 
     filter: grayscale(100%);
-}
-.crew__box__inner{
-    position: relative; 
+    image-rendering: crisp-edges;
+    object-fit: cover;
 }
 .crew__info{
     display: none;
