@@ -234,14 +234,13 @@
     padding: 108px 0 87px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .crew__img{
     width: 100%;
     max-width: 270px;
     height: 300px;
     display: block;
-    filter: grayscale(100%);
 }
 .crew__box__inner{
     position: relative; 
@@ -291,8 +290,6 @@
 }
 .crew__social img{
     display: block;
-    margin: 0 auto;
-    padding-top: 12px;
 }
 .crew__suptitle{
     font-family: "OpenSans-Semibold", "AdobeInvisFont", "MyriadPro-Regular";
@@ -314,8 +311,6 @@
 .crew__img:hover .crew__suptitle{
     color: #0eb493;                
 }
-
-/* facts   */
 
 
 

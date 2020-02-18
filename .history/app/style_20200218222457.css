@@ -234,20 +234,19 @@
     padding: 108px 0 87px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 .crew__img{
     width: 100%;
     max-width: 270px;
     height: 300px;
     display: block;
-    filter: grayscale(100%);
 }
 .crew__box__inner{
     position: relative; 
 }
 .crew__info{
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 0;
     left: 0;
@@ -289,11 +288,6 @@
     margin-right: 4px;
     background-image: url(./img/team-link.png);
 }
-.crew__social img{
-    display: block;
-    margin: 0 auto;
-    padding-top: 12px;
-}
 .crew__suptitle{
     font-family: "OpenSans-Semibold", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 18px;
@@ -308,14 +302,6 @@
     opacity: 0.5;
     text-align: center; 
 }
-.crew__box__inner:hover .crew__info{
-    display: block;                   
-}
-.crew__img:hover .crew__suptitle{
-    color: #0eb493;                
-}
-
-/* facts   */
 
 
 
