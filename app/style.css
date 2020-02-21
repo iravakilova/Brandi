@@ -34,13 +34,29 @@
     max-width: 1600px;
     margin: 0 auto;
     font-family: "Pacifico-Regular", "AdobeInvisFont", "MyriadPro-Regular";
-    background-color: #0a2724;
+    min-height: 800px;
+    background: url(./img/header-bd2.png) no-repeat center top;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
 }
+.header::before {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./img/header-bd1.png) no-repeat center top;
+    background-size: cover;
+    z-index: 0;
+  }
 .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 394px;
+    /* background: rgba(0,0,0,0.3); */
 }
 .header__logo{
     display: flex;
@@ -61,7 +77,6 @@
 .header-menu {
     font-size: 13px;
     padding: 35px 0 25px;
-
 }
 .header-menu__link {
     display: inline-block;
@@ -79,7 +94,7 @@
 .intro__title{
     font-size: 62px;
     color: #fff;
-    padding-bottom: 22px;
+    padding: 394px 0 22px;
 }
 .intro__suptitle{
     font-size: 48px;
@@ -329,17 +344,18 @@
     background: url(./img/fact-bg.png) no-repeat center top;
     background-size: cover;
     position: relative;
+    z-index: 2;
 }
-.facts:before {
+.facts::before {
+    display: block;
     content: '';
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    /* background: url(./img/fact-bg-blue.png); */
     background: rgba(6,32,51,0.8);
-    opacity: 0.8;
+    z-index: 0;
   }
 .facts__inner{
     display: flex;
@@ -376,3 +392,138 @@
 }
 
 /* discuss */
+
+.discuss{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+.discuss__inner{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 83px 0 107px; 
+}
+.leftside{
+    width: 25%;
+}
+.leftside__title{
+    font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+    font-weight: bold;
+    font-size: 22px;
+    color: rgba(6, 32, 51, 255);
+    padding-bottom: 35px;
+    line-height: 1.5;
+}
+.leftside__descr{
+    font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+    line-height: 1.5;
+    font-size: 16px;
+    color: rgba(6, 32, 51, 255);
+}
+.rightside{
+    width: 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.rightside__img{
+    padding: 0 0 25px 0;
+}
+.middleside{
+    width: 65%;
+}
+.middleside__title{
+    font-family: "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 24px;
+    color: rgba(6, 32, 51, 255);
+    font-weight: bold;
+    padding-bottom: 50px;
+    line-height: 1.5;
+}
+.form-control{
+    font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 13px;
+    color: rgba(91, 100, 110, 255);
+    padding-bottom: 21px;
+}
+.middleside__input{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.middleside__input input{
+    width: 48%;
+    border: none;
+    box-shadow: 0 1px 0 #cccccc;
+}
+.middleside__textarea{
+    padding-top: 47px;
+}
+.middleside__textarea textarea{
+    width: 100%;
+    border: none;
+    box-shadow: 0 1px 0 #cccccc;
+    overflow: auto;
+}
+.middleside__button{
+    padding-top: 38px;
+    text-align: right;
+}
+.middleside__button button{
+    border: none;
+    background: transparent;
+}
+.middleside__button button a{
+    color: #000;
+    text-decoration: none;
+    padding: 0;
+    vertical-align: middle;
+}
+.middleside__button button img{
+    padding-right: 12px;   
+}
+.map{
+    width: 100%;
+    border-bottom: 5px solid #000;
+    max-width: 1600px;
+    margin: 0 auto;
+    min-height: 215px;
+    background: url(./img/map.png) no-repeat center top;
+    background-size: cover;
+    position: relative;
+}
+.point{
+    position: absolute;
+    top: 45%;
+    left: 31%;
+    bottom: 5%;
+    right: 68%;
+    z-index:100;
+}
+
+/* footer */
+
+.footer{
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background: url(./img/labore.png) no-repeat center top;
+    background-size: cover;
+}
+.footer__inner{
+    padding: 99px 0 127px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo-part__descr{
+    font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 13px;
+    color: #fff;
+    padding-top: 44px;
+}
