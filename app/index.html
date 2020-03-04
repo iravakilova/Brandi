@@ -6,6 +6,8 @@
     <title>BRANDI</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media320-480.css">
+    <link rel="stylesheet" href="media768-1024.css">
 </head>
 <body>
 
@@ -18,13 +20,15 @@
                     <p class="logo">Brandi</p>  
                     <p class="logo-text">I’am your tag line</p> 
                 </div>
-                                             
-                <nav class="header-menu">
-                    <a class="header-menu__link active" href="#">Home</a>
-                    <a class="header-menu__link" href="#">Features</a>
-                    <a class="header-menu__link" href="#">Works</a>
-                    <a class="header-menu__link" href="#">Team</a>
-                    <a class="header-menu__link" href="#">Contact</a>
+                <nav class="header-menu"> 
+                    <img class="burger-menu" src="./img/menu.png" alt="">                          
+                    <div class="navigation"> 
+                        <a class="navigation__link active" href="#">Home</a>
+                        <a class="navigation__link" href="#">Features</a>
+                        <a class="navigation__link" href="#">Works</a>
+                        <a class="navigation__link" href="#">Team</a>
+                        <a class="navigation__link" href="#">Contact</a>
+                    </div>
                 </nav>
             </div>
         </div>
@@ -193,6 +197,15 @@
             <img class="heart" src="./img/heart-1.png" alt="">
             <p class="unit-article">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam <br/>rem aperiam, eaque ipsa quae ab illo inventore</p>
             <div class="crew">
+                <input type="radio" name="switch" id="btn1" checked>
+                <input type="radio" name="switch" id="btn2">
+                <input type="radio" name="switch" id="btn3">
+                
+                <div class="switch">
+                    <label for="btn1"></label>
+                    <label for="btn2"></label>
+                    <label for="btn3"></label>
+                </div>
                 <div class="crew__container">
                     <div class="crew__box">
                         <div class="crew__box__inner">
@@ -258,7 +271,7 @@
                         <h4 class="crew__suptitle">Steve Flaulkin</h4>
                         <p class="crew__supdescr">Sr. UI Designer</p>
                     </div>
-                </div>    
+                </div>   
             </div>
         </div>
     </section>
