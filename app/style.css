@@ -69,7 +69,7 @@
     margin-right: 27px;
 }
 .logo-text{
-    font-size: 16pt;
+    font-size: 16px;
     color: #0eb493;
 }
 .burger-menu{
@@ -183,6 +183,9 @@
     background-color: transparent;
     padding: 10px 20px;
     border-radius: 5px;
+}
+.works-menu__link:first-child{
+    margin-left: 0px;
 }
 .works-menu__link:hover {
     color: #fff;
@@ -578,7 +581,7 @@
     align-items: baseline;
 }
 .logo-part{
-padding-right: 45px;
+    padding-right: 45px;
 }
 .footer__logo {
     color: #fff;
@@ -601,8 +604,8 @@ padding-right: 45px;
     margin-bottom: 10px;
 }
 .footer__button button{
- border: none;
- background: transparent;
+    border: none;
+    background: transparent;
 }
 .explore-part__inner{
     display: flex;
