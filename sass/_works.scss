@@ -1,0 +1,102 @@
+
+/* works */
+
+.works {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+  
+    .wrap {
+      width: 100%;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+  
+    .works-menu {
+      padding: 58px 0 46px;
+      font-family: "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+  
+      .works-menu__link {
+        display: inline-block;
+        margin-left: 50px;
+        color: rgba(6, 32, 51, 255);
+        text-decoration: none;
+        background-color: transparent;
+        padding: 10px 20px;
+        border-radius: 5px;
+  
+        &:first-child {
+          margin-left: 0px;
+        }
+  
+        &:hover {
+          color: #fff;
+          background-color: #0eb493;
+        }
+      }
+    }
+  
+    .gallery {
+      width: 100%;
+  
+      .gallery__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+  
+        .gallery__box {
+          position: relative;
+  
+          .gallery__img {
+            max-width: 100%;
+            width: 400px;
+            height: 300px;
+            display: block;
+            object-fit: cover;
+          }
+  
+          .ladore {
+            display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url(./img/labore.png);
+            color: #fff;
+            text-align: center;
+            transition: all 0.5s ease;
+          }
+  
+          .ladore__img img {
+            width: 20px;
+            height: 12px;
+            padding: 14px 10px;
+            border: 1px solid #fff;
+            border-radius: 50%;
+            margin: 94px auto 0;
+          }
+  
+          .ladore__title {
+            padding-top: 29px;
+            padding-bottom: 10px;
+            font-family: "OpenSans", "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
+            font-size: 18px;
+            font-weight: bold;
+            margin: 0;
+          }
+  
+          .ladore__descr {
+            margin: 0;
+          }
+  
+          &:hover .ladore {
+            display: block;
+          }
+        }
+      }
+    }
+  }

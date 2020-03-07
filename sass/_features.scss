@@ -1,0 +1,44 @@
+
+/* features */
+
+.features {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background-color: #f4f7f9;
+  
+    .features__inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 67px 0 80px;
+  
+      .features__var {
+        margin-right: 44px;
+        display: flex;
+  
+        &:last-child {
+          margin-right: 0px;
+        }
+  
+        .features__image {
+          display: block;
+          margin-right: 17px;
+        }
+  
+        .features__title {
+          font-family: "OpenSans-Semibold", "AdobeInvisFont", "MyriadPro-Regular";
+          font-size: 20px;
+          color: rgba(6, 32, 51, 255);
+          padding-bottom: 22px;
+        }
+  
+        .features__descr {
+          font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+          font-size: 13px;
+          color: rgba(6, 32, 51, 255);
+          line-height: 1.5;
+        }
+      }
+    }
+  }

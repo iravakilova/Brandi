@@ -52,69 +52,69 @@
     background-size: cover;
     z-index: 0;
   }
-.header__inner {
+  .header .header__inner {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.header__logo{
+.header .header__logo{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 0;
 }
-.logo {
+.header .header__logo .logo {
     color: #fff;
     font-size: 28px;
     margin-right: 27px;
 }
-.logo-text{
+.header .header__logo .logo-text{
     font-size: 16px;
     color: #0eb493;
 }
-.burger-menu{
+.header .burger-menu{
     display: none;
 }
-.navigation {
+.header .header__inner .navigation {
     font-size: 13px;
     padding: 35px 0 25px;
 }
-.navigation__link {
+.header .header__inner .navigation .navigation__link {
     display: inline-block;
     vertical-align: top;
     margin-left: 20px;
     color: #fff;
     text-decoration: none;
 }
-.intro{
+.header .intro{
     text-align: center;
 }
-.intro__inner{
+.header .intro .intro__inner{
     margin-bottom: 109px;
 }
-.intro__title{
+.header .intro .intro__inner .intro__title{
     font-size: 62px;
     color: #fff;
     padding: 394px 0 22px;
 }
-.intro__suptitle{
+.header .intro .intro__inner .intro__suptitle{
     font-size: 48px;
     color: #fff;
     padding-bottom: 22px;
 }
-.intro__descr{
+.header .intro .intro__inner .intro__descr{
     font-size: 18px;
     color: #fff;
     margin-bottom: 109px;
 }
-.social{
+.header .intro .social{
     padding-bottom: 50px;
 }
-.social__link img{
+.header .intro .social .social__link img{
     opacity: 0.25;
     margin-right: 16px;
 }
-.social img:hover{
+.header .intro .social .social__link img:hover{
     opacity: 1;
 }
 
@@ -126,30 +126,30 @@
     margin: 0 auto;
     background-color: #f4f7f9;
 }
-.features__inner{
+.features .features__inner{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 67px 0 80px;    
 }
-.features__var{
+.features .features__inner .features__var{
     margin-right: 44px;
     display: flex;
 }
-.features__var:last-child{
+.features .features__inner .features__var:last-child{
     margin-right: 0px;
 }
-.features__image{
+.features .features__inner .features__var .features__image{
     display: block;
     margin-right: 17px;
 }
-.features__title{
+.features .features__inner .features__var .features__title{
     font-family: "OpenSans-Semibold", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 20px;
     color: rgba(6, 32, 51, 255);
     padding-bottom: 22px;
 }
-.features__descr{
+.features .features__inner .features__var .features__descr{
     font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 13px;
     color: rgba(6, 32, 51, 255);
@@ -163,19 +163,19 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-.wrap{
+.works .wrap{
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
 }
-.works-menu {
+.works .works-menu {
     padding: 58px 0 46px;
     font-family: "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 14px;
     font-weight: bold;
     text-align: center;
 }
-.works-menu__link {
+.works .works-menu .works-menu__link {
     display: inline-block;
     margin-left: 50px;
     color: rgba(6, 32, 51, 255);
@@ -184,32 +184,32 @@
     padding: 10px 20px;
     border-radius: 5px;
 }
-.works-menu__link:first-child{
+.works .works-menu .works-menu__link:first-child{
     margin-left: 0px;
 }
-.works-menu__link:hover {
+.works .works-menu .works-menu__link:hover {
     color: #fff;
     background-color:  #0eb493;
 }
-.gallery{
+.works .gallery{
     width: 100%;
 }
-.gallery__container {
+.works .gallery .gallery__container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
 }
-.gallery__img{
+.works .gallery .gallery__container .gallery__box{
+    position: relative; 
+}
+.works .gallery .gallery__container .gallery__box .gallery__img{
     max-width: 100%;
     width: 400px;
     height: 300px;
     display: block;
     object-fit: cover;
 }
-.gallery__box{
-    position: relative; 
-}
-.ladore{
+.works .gallery .gallery__container .gallery__box .ladore{
     display: none;
     position: absolute;
     top: 0;
@@ -221,7 +221,7 @@
     text-align: center;
     transition: all 0.5s ease;   
 }
-.ladore__img img{
+.works .gallery .gallery__container .gallery__box .ladore__img img{
     width: 20px;
     height: 12px;
     padding: 14px 10px;
@@ -229,7 +229,7 @@
     border-radius: 50%;
     margin: 94px auto 0;
 }
-.ladore__title{
+.works .gallery .gallery__container .gallery__box .ladore__title{
     padding-top: 29px;
     padding-bottom: 10px;
     font-family: "OpenSans", "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
@@ -237,10 +237,10 @@
     font-weight: bold;
     margin: 0;
 }
-.ladore__descr{
+.works .gallery .gallery__container .gallery__box .ladore__descr{
     margin: 0;
 }
-.gallery__box:hover .ladore{
+.works .gallery .gallery__container .gallery__box:hover .ladore{
     display: block;                   
 }
 
@@ -251,23 +251,23 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-.crew {
+.team .crew {
     width: 100%;
     max-width: 1080px;
     margin: 108px auto 215px;
     position: relative;
 } 
-.crew input{
+.team .crew input{
     display: none;
 } 
-.switch {
+.team .crew .switch {
     position: absolute;
     left: 0;
     bottom: -40px;
     text-align: center;
     width: 100%;
 }
-.switch label {
+.team .crew .switch label {
     display: inline-block;
     width: 8px;
     height: 8px;
@@ -276,37 +276,40 @@
     border: 1px solid #000;
     background-color: #fff;
 }
-#btn1:checked~.switch label[for="btn1"] {
+.team .crew #btn1:checked~.switch label[for="btn1"] {
     background-color: #000;
 }
-#btn2:checked~.switch label[for="btn2"] {
+.team .crew #btn2:checked~.switch label[for="btn2"] {
     background-color: #000;
 }
-#btn3:checked~.switch label[for="btn3"] {
+.team .crew #btn3:checked~.switch label[for="btn3"] {
     background-color: #000;
 }
-#btn1:checked~.crew__container .crew__box {
+.team .crew #btn1:checked~.crew__container .crew__box {
     transform: translate(0);
 }
-#btn2:checked~.crew__container .crew__box {
+.team .crew #btn2:checked~.crew__container .crew__box {
     transform: translate(-540px);
 }
-#btn3:checked~.crew__container .crew__box {
+.team .crew #btn3:checked~.crew__container .crew__box {
     transform: translate(-1080px);
 }
-.crew__container{
+.team .crew__container{
     display: flex;
     justify-content: space-between;
     overflow: hidden;
 }
-.crew__box {
+.team .crew__container .crew__box {
     width: 100%;
     transition: all 0.5s;
 }
-.crew__box__inner{
+.team .crew__container .crew__box .crew__box__inner{
     position: relative;
 }
-.crew__img{
+.team .crew__container .crew__box .crew__box__inner:hover .crew__info{
+    display: block;                   
+}
+.team .crew__container .crew__box .crew__box__inner .crew__img{
     display: block;
     width: 100%;
     max-width: 270px;
@@ -314,7 +317,7 @@
     filter: grayscale(100%);
     object-fit: cover;
 }
-.crew__info{
+.team .crew__container .crew__box .crew__box__inner .crew__info{
     display: none;
     position: absolute;
     top: 0;
@@ -326,7 +329,7 @@
     text-align: center;
     transition: all 0.5s ease;
 }
-.crew__title{
+.team .crew__container .crew__box .crew__box__inner .crew__info .crew__title{
     max-width: 220px; 
     padding-top: 23px;
     font-family: "OpenSans", "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
@@ -336,7 +339,7 @@
     margin: 0 auto;
     line-height: 1.2;
 }
-.crew__descr{
+.team .crew__container .crew__box .crew__box__inner .crew__info .crew__descr{
     max-width: 220px; 
     padding-top: 15px;
     font-family: "OpenSans", "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
@@ -345,50 +348,43 @@
     margin: 0 auto;
     line-height: 1.2;
 }
-.crew__social{
+.team .crew__container .crew__box .crew__box__inner .crew__info .crew__social{
     padding-top: 67px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.crew__social__link{
+.team .crew__container .crew__box .crew__box__inner .crew__info .crew__social .crew__social__link{
     width: 42px;
     height: 42px;
     margin-right: 4px;
     background-image: url(./img/team-link.png);
     position: relative;
-}
-.crew__social a{
     display: block;
     margin: 0 auto;
 }
-.crew__social img{
+.team .crew__container .crew__box .crew__box__inner .crew__info .crew__social .crew__social__link img{
     width: 30%;
     height: 33%;
     position: absolute;
     top: 35%;
     left: 35%;
 }
-.crew__suptitle{
+.team .crew__container .crew__box .crew__box__inner .crew__suptitle{
     font-family: "OpenSans-Semibold", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 18px;
     font-weight: bold;
     padding: 21px 0 14px;
     text-align: center; 
 }
-.crew__supdescr{
+.team .crew__container .crew__box .crew__box__inner .crew__supdescr{
     font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 13px;
     color: #000;
     opacity: 0.5;
     text-align: center; 
 }
-.crew__box__inner:hover .crew__info{
-    display: block;                   
-}
-.crew__img:hover .crew__suptitle{
-    color: #0eb493;                
-}
+
 
 /* facts   */
 
@@ -413,20 +409,20 @@
     background: rgba(6,32,51,0.8);
     z-index: 0;
   }
-.facts__inner{
+.facts .facts__inner{
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 75px 0 158px;   
 }
-.facts__var{
+.facts .facts__inner .facts__var{
     margin-right: 170px;
     text-align: center;
 }
-.facts__var:last-child{
+.facts .facts__inner .facts__var:last-child{
     margin-right: 0px;
 }
-.facts__image{
+.facts .facts__inner .facts__var .facts__image{
     width: 60px;
     height: 60px;
     display: block;
@@ -435,13 +431,13 @@
     border-radius: 50%;
     margin: 0 auto;
 }
-.facts__title{
+.facts .facts__inner .facts__var .facts__title{
     padding-top: 51px;
     font-family: "OpenSans-Semibold", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 60px;
     color: #fff;
 }
-.facts__descr{
+.facts .facts__inner .facts__var .facts__descr{
     padding-top: 18px;
     font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 18px;
@@ -456,17 +452,17 @@
     max-width: 1600px;
     margin: 0 auto;
 }
-.discuss__inner{
+.discuss .discuss__inner{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     padding: 83px 0 107px; 
 }
-.leftside{
+.discuss .discuss__inner .leftside{
     width: 25%;
 }
-.leftside__title{
+.discuss .discuss__inner .leftside .leftside__title{
     font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
     font-weight: bold;
     font-size: 22px;
@@ -474,26 +470,26 @@
     padding-bottom: 35px;
     line-height: 1.5;
 }
-.leftside__descr{
+.discuss .discuss__inner .leftside .leftside__descr{
     font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
     line-height: 1.5;
     font-size: 16px;
     color: rgba(6, 32, 51, 255);
 }
-.rightside{
+.discuss .discuss__inner .rightside{
     width: 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
 }
-.rightside__img{
+.discuss .discuss__inner .rightside .rightside__img{
     padding: 0 0 25px 0;
 }
-.middleside{
+.discuss .discuss__inner .middleside{
     width: 65%;
 }
-.middleside__title{
+.discuss .discuss__inner .middleside .middleside__title{
     font-family: "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 24px;
     color: rgba(6, 32, 51, 255);
@@ -501,50 +497,50 @@
     padding-bottom: 50px;
     line-height: 1.5;
 }
-.form-control{
+.discuss .discuss__inner .middleside .form-control{
     font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 13px;
     color: rgba(91, 100, 110, 255);
     padding-bottom: 21px;
 }
-.middleside__input{
+.discuss .discuss__inner .middleside .middleside__input{
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.middleside__input input{
+.discuss .discuss__inner .middleside .middleside__input input{
     width: 48%;
     border: none;
     box-shadow: 0 1px 0 #cccccc;
 }
-.middleside__textarea{
+.discuss .discuss__inner .middleside .middleside__textarea{
     padding-top: 47px;
 }
-.middleside__textarea textarea{
+.discuss .discuss__inner .middleside .middleside__textarea textarea{
     width: 100%;
     border: none;
     box-shadow: 0 1px 0 #cccccc;
     overflow: auto;
 }
-.middleside__button{
+.discuss .discuss__inner .middleside .middleside__button{
     padding-top: 38px;
     text-align: right;
 }
-.middleside__button button{
+.discuss .discuss__inner .middleside .middleside__button button{
     border: none;
     background: transparent;
 }
-.middleside__button button a{
+.discuss .discuss__inner .middleside .middleside__button button a{
     color: #000;
     text-decoration: none;
     padding: 0;
     vertical-align: middle;
 }
-.middleside__button button img{
+.discuss .discuss__inner .middleside .middleside__button button img{
     padding-right: 12px;   
 }
-.map{
+.discuss .map{
     width: 100%;
     border-bottom: 5px solid #000;
     max-width: 1600px;
@@ -554,7 +550,7 @@
     background-size: cover;
     position: relative;
 }
-.point{
+.discuss .map .point{
     position: absolute;
     top: 45%;
     left: 31%;
@@ -573,47 +569,47 @@
     background-size: cover;
     color: #fff;
 }
-.footer__inner{
+.footer .footer__inner{
     padding: 99px 0 127px;
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
 }
-.logo-part{
+.footer .footer__inner .logo-part{
     padding-right: 45px;
 }
-.footer__logo {
+.footer .footer__inner .logo-part .footer__logo {
     color: #fff;
     font-size: 28px;
     padding-bottom: 44px;
 }
-.footer__descr{
+.footer .footer__inner .logo-part .footer__descr{
     font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 13px;
     line-height: 2; 
 }
-.footer__title{
+.footer .footer__inner .footer__title{
     font-family: "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
     font-size: 14px;
     padding-bottom: 47px;
 }
-.footer__textarea textarea{
+.footer .footer__inner .subsribe-part .footer__textarea textarea{
     width: 90%;
     background: transparent;
     margin-bottom: 10px;
 }
-.footer__button button{
+.footer .footer__inner .subsribe-part .footer__button button{
     border: none;
     background: transparent;
 }
-.explore-part__inner{
+.footer .footer__inner .explore-part__inner{
     display: flex;
     justify-content: space-between;
 }
-.part-two{
+.footer .footer__inner .explore-part__inner .part-two{
     padding: 0 83px 0 41px;
 }
-.quote{
+.footer .footer__inner .explore-part__inner .quote{    
     padding-top: 45px;
 }
