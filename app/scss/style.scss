@@ -1,3 +1,14 @@
+
+@import "reset";
+@import "header";
+@import "features";
+@import "works";
+@import "team";
+@import "facts";
+@import "discuss";
+@import "footer";
+
+
 .container {
     width: 100%;
     max-width: 1200px;
@@ -25,12 +36,3 @@
     padding-top: 36px;
     line-height: 1.5;
 }
-
-@import "reset";
-@import "header";
-@import "features";
-@import "works";
-@import "team";
-@import "facts";
-@import "discuss";
-@import "footer";
