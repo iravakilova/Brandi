@@ -38,7 +38,6 @@
 }
 
 @media only screen and (min-width : 320px) and (max-width : 480px) {
-    
     .container {
         max-width: 480px;
         min-width: 320px;
@@ -57,5 +56,22 @@
         width: 90%;
         margin: 0 auto;
     }
-
 } 
+
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
+    .container {
+        max-width: 1024px;
+        min-width : 768px;
+    }
+    .unit-title{
+        padding-top: 50px;
+    }
+    .heart{
+        padding-top: 25px;
+    }
+    .unit-article{
+        width: 95%;
+        margin: 0 auto;
+        padding-top: 25px;
+    }
+}

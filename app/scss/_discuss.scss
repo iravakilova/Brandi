@@ -212,3 +212,61 @@
     }
     
   }
+
+  @media only screen and (min-width : 768px) and (max-width : 1024px){
+
+  .discuss {
+    max-width: 1024px;
+    min-width: 768px;
+  
+    .discuss__inner {
+      width: 90%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      padding: 50px 0; 
+  
+      .leftside {
+        width: 30%;
+  
+        .leftside__title {
+          font-size: 20px;
+          padding-bottom: 35px;
+        }
+      }
+  
+      .rightside {
+        width: 100%;
+        justify-content: space-around;
+        flex-direction: row;
+  
+        .rightside__img {
+          padding: 30px 0 0;
+        }
+      }
+  
+      .middleside {
+        width: 70%;
+  
+        .middleside__title {
+          font-size: 20px;
+          padding-bottom: 25px;
+        }
+      }
+    }
+  
+    .map {
+      .point {
+        position: absolute;
+        top: 45%;
+        left: 12%;
+        bottom: 5%;
+        right: 68%;
+        z-index:100;
+      }
+    }
+  }  
+
+}

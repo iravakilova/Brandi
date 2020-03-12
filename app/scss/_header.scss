@@ -198,3 +198,32 @@
     }
 
   }
+
+  @media only screen and (min-width : 768px) and (max-width : 1024px) {
+
+    .header {
+      max-width: 1024px;
+      min-width: 768px;
+      min-height: 565px;
+    
+      .header__inner {
+        justify-content: space-around;
+    
+        .header-menu {   
+          .navigation {
+            font-size: 14px;
+          }
+        }
+      }
+    
+      .intro {
+        .intro__inner {
+          margin-bottom: 50px;
+          .intro__title {
+            padding: 155px 0 22px;
+          }
+        }
+      }
+    }
+
+  }

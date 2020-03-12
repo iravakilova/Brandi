@@ -109,3 +109,41 @@
     }
 
   }
+
+  @media only screen and (min-width : 768px) and (max-width : 1024px){
+
+    .facts {
+      max-width: 1024px;
+      min-width: 768px;
+      min-height: 400px;
+    
+      .facts__inner {
+        padding: 50px 0;   
+    
+        .facts__var {
+          width: 90%; 
+          margin-right: 0px;
+    
+          .facts__image {
+            width: 40px;
+            height: 40px;
+            padding: 20px;
+          }
+    
+          .facts__title {
+            padding-top: 20px;
+            font-size: 30px;
+          }
+    
+          .facts__descr {
+            padding-top: 18px;
+            font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+            font-size: 12px;
+            color: #fff;
+            text-transform: uppercase;
+          }
+        }
+      }
+    }
+
+  }

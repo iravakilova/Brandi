@@ -147,3 +147,49 @@
     }
 
   }
+
+  @media only screen and (min-width : 768px) and (max-width : 1024px){
+  
+    .footer {
+      max-width: 1024px;
+      min-width: 768px;
+    
+      .footer__inner {
+        width: 90%;
+        margin: 0 auto;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-around;
+        align-items: baseline;
+    
+        .logo-part {
+          padding-right: 20px;
+    
+          .footer__logo {
+            padding-bottom: 20px;
+          }
+    
+          .footer__descr {
+            font-size: 11px;
+            line-height: 1.5;
+          }
+        }
+    
+        .footer__title {
+          padding-bottom: 22px;
+        }
+
+        .explore-part{
+          .explore-part__inner {
+            .part-two {
+              padding: 0 20px;
+            }
+            .quote {
+              padding-top: 20px;
+            }
+          }
+        }
+      }
+    }
+  
+  }

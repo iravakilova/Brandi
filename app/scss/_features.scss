@@ -76,3 +76,31 @@
     }
 
   }
+
+  @media only screen and (min-width : 768px) and (max-width : 1024px) {
+  
+    .features {
+      max-width: 1024px;
+      min-width: 768px;
+    
+      .features__inner {
+        width: 95%;
+        justify-content: space-around;
+        padding: 30px 0px 50px;    
+        margin: 0 auto;
+    
+        .features__var {
+          margin-right: 20px;
+    
+          .features__image {
+            margin-right: 10px;
+          }
+    
+          .features__title {
+            padding-bottom: 10px;
+          }
+        }
+      }
+    }
+  
+  }

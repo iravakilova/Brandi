@@ -210,3 +210,61 @@
       }
     }
   }
+
+  @media only screen and (min-width : 768px) and (max-width : 1024px){
+
+    .team {
+      max-width: 1024px;
+      min-width: 768px;
+    
+      .crew {
+        max-width: 720px;
+        margin: 30px auto 60px;
+    
+        .crew__container {
+          .crew__box {
+            .crew__box__inner {
+              .crew__img {
+                max-width: 180px;
+                height: 200px; 
+              }
+    
+              .crew__info {
+                .crew__title {
+                  width: 90%; 
+                  padding-top: 15px;
+                  font-size: 14px;
+                }
+    
+                .crew__descr {
+                  width: 90%; 
+                  padding-top: 15px;
+                  font-size: 12px;
+                  line-height: 1.2;
+                }
+    
+                .crew__social {
+                  padding-top: 25px;
+    
+                  .crew__social__link {
+                    width: 35px;
+                    height: 35px;   
+                  }
+                }
+              }
+            }
+    
+            .crew__suptitle {
+              font-size: 16px;
+              padding: 15px 0 10px;
+            }
+    
+            .crew__supdescr {
+              font-size: 11px;
+            }
+          }
+        }
+      }
+    } 
+
+  }
