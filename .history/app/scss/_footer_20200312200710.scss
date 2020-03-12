@@ -1,0 +1,141 @@
+
+/* footer */
+
+.footer {
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    background: url(/img/labore.png) no-repeat center top;
+    background-size: cover;
+    color: #fff;
+  
+    .footer__inner {
+      padding: 99px 0 127px;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+  
+      .logo-part {
+        padding-right: 45px;
+  
+        .footer__logo {
+          color: #fff;
+          font-size: 28px;
+          padding-bottom: 44px;
+        }
+  
+        .footer__descr {
+          font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+          font-size: 13px;
+          line-height: 2;
+        }
+      }
+  
+      .footer__title {
+        font-family: "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
+        font-size: 14px;
+        padding-bottom: 47px;
+      }
+  
+      .subsribe-part {
+        .footer__textarea textarea {
+          width: 90%;
+          background: transparent;
+          margin-bottom: 10px;
+        }
+  
+        .footer__button button {
+          border: none;
+          background: transparent;
+        }
+      }
+  
+      .explore-part__inner {
+        display: flex;
+        justify-content: space-between;
+  
+        .part-two {
+          padding: 0 83px 0 41px;
+        }
+  
+        .quote {
+          padding-top: 45px;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width : 320px) and (max-width : 480px){
+
+    .footer {
+      max-width: 480px;
+      min-width: 320px;
+    
+      .footer__inner {
+        padding: 30px 0 5px;
+        flex-direction: column;
+        text-align: center;
+    
+        .logo-part {
+          width: 100%;
+          padding-right: 0px;
+    
+          .footer__logo {
+            font-size: 25px;
+            padding-bottom: 10px;
+          }
+    
+          .footer__descr {
+            font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+            font-size: 10px;
+            line-height: 1.2; 
+          }
+        }
+    
+        .footer__title {
+          font-size: 14px;
+          padding: 20px 10px; 
+        }
+    
+        .subsribe-part {
+          margin: 0 auto;
+
+          .footer__textarea textarea {
+            width: 90%;
+            background: transparent;
+            margin-bottom: 10px;
+          }
+    
+          .footer__button button {
+            padding-bottom: 10px;
+          }
+
+          .footer__descr {
+            font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+            font-size: 10px;
+            line-height: 1.2; 
+          }
+        }
+    
+        .footer .footer__inner .explore-part .explore-part__inner {
+          display: flex;
+          justify-content: space-between;
+          font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
+          font-size: 13px;
+          line-height: 2;
+
+          .part-one
+        
+          .part-two {
+            padding: 0 83px 0 41px;
+          }
+        
+          .part-three .quote {
+            padding-top: 45px;
+          }
+        }
+      }
+    }
+
+  }

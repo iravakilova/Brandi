@@ -1,0 +1,61 @@
+
+@import "reset";
+@import "header";
+@import "features";
+@import "works";
+@import "team";
+@import "facts";
+@import "discuss";
+@import "footer";
+
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    filter: brightness(100%);
+}
+.unit-title{
+    font-family: "OpenSans-Extrabold", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 28px;
+    color: rgba(14, 180, 147, 255);
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 100px;
+}
+.heart{
+    display: block;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+.unit-article{
+    font-family: "OpenSans-Semibold", "AdobeInvisFont", "MyriadPro-Regular";
+    font-size: 18px;
+    color: rgba(6, 32, 51, 255);
+    text-align: center;
+    padding-top: 36px;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+    
+    .container {
+        max-width: 480px;
+        min-width: 320px;
+    }
+    .unit-title{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .heart{
+        padding-top: 15px;
+    }
+    .unit-article{
+        font-size: 12px;
+        padding-top: 15px;
+        line-height: 1.2;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    
