@@ -2,6 +2,7 @@
 /* facts   */
 
 .facts {
+    font-family: 'Open Sans', sans-serif;
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
@@ -49,14 +50,13 @@
   
         .facts__title {
           padding-top: 51px;
-          font-family: "OpenSans-Semibold", "AdobeInvisFont", "MyriadPro-Regular";
+          font-weight: bold;
           font-size: 60px;
           color: #fff;
         }
   
         .facts__descr {
           padding-top: 18px;
-          font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
           font-size: 18px;
           color: #fff;
           text-transform: uppercase;
@@ -137,7 +137,6 @@
     
           .facts__descr {
             padding-top: 18px;
-            font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
             font-size: 12px;
             color: #fff;
             text-transform: uppercase;

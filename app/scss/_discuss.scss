@@ -5,6 +5,7 @@
     width: 100%;
     max-width: 1600px;
     margin: 0 auto;
+    font-family: 'Open Sans', sans-serif;
   
     .discuss__inner {
       width: 100%;
@@ -17,7 +18,6 @@
         width: 25%;
   
         .leftside__title {
-          font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
           font-weight: bold;
           font-size: 22px;
           color: rgba(6, 32, 51, 255);
@@ -26,7 +26,6 @@
         }
   
         .leftside__descr {
-          font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
           line-height: 1.5;
           font-size: 16px;
           color: rgba(6, 32, 51, 255);
@@ -49,7 +48,6 @@
         width: 65%;
   
         .middleside__title {
-          font-family: "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
           font-size: 24px;
           color: rgba(6, 32, 51, 255);
           font-weight: bold;
@@ -58,7 +56,6 @@
         }
   
         .form-control {
-          font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
           font-size: 13px;
           color: rgba(91, 100, 110, 255);
           padding-bottom: 21px;

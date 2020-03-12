@@ -4,6 +4,7 @@
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
+  font-family: 'Open Sans', sans-serif;
 
   .crew {
     width: 100%;
@@ -89,7 +90,6 @@
             .crew__title {
               max-width: 220px;
               padding-top: 23px;
-              font-family: "OpenSans", "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
               font-weight: bold;
               font-size: 16px;
               color: #ffff;
@@ -100,7 +100,6 @@
             .crew__descr {
               max-width: 220px;
               padding-top: 15px;
-              font-family: "OpenSans", "OpenSans-Bold", "AdobeInvisFont", "MyriadPro-Regular";
               font-size: 16px;
               color: #ffff;
               margin: 0 auto;
@@ -135,7 +134,6 @@
         }
 
         .crew__suptitle {
-          font-family: "OpenSans-Semibold", "AdobeInvisFont", "MyriadPro-Regular";
           font-size: 18px;
           font-weight: bold;
           padding: 21px 0 14px;
@@ -143,7 +141,6 @@
         }
 
         .crew__supdescr {
-          font-family: "OpenSans", "AdobeInvisFont", "MyriadPro-Regular";
           font-size: 13px;
           color: #000;
           opacity: 0.5;
